@@ -7,8 +7,8 @@ type Props = {};
 export default function ExperienceCard({}: Props) {
   return (
     <article
-      className="flex flex-col rounded-lg items-center space-y-0 flex-shrink-0 w-[500px] md:w-[500px] xl:w-[500px] 
-                        snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity 
+      className="flex flex-col rounded-lg items-center space-y-6 flex-shrink-0 w-[500px] md:w-[500px] xl:w-[900px] 
+                        snap-center bg-[#292929] p-1 hover:opacity-100 opacity-40 cursor-pointer transition-opacity 
                         duration-200 overflow-hidden"
     >
       <motion.img
@@ -62,11 +62,26 @@ export default function ExperienceCard({}: Props) {
         </p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Summary Points</li>
-          <li>Summary Points</li>
-          <li>Summary Points</li>
-          <li>Summary Points</li>
-          <li>Summary Points</li>
+          <li>
+            Summary PointsSummary PointsSummary PointsSummary PointsSummary
+            Points
+          </li>
+          <li>
+            Summary PointsSummary PointsSummary PointsSummary PointsSummary
+            Points
+          </li>
+          <li>
+            Summary PointsSummary PointsSummary PointsSummary PointsSummary
+            Points
+          </li>
+          <li>
+            Summary PointsSummary PointsSummary PointsSummary PointsSummary
+            Points
+          </li>
+          <li>
+            Summary PointsSummary PointsSummary PointsSummary PointsSummary
+            Points
+          </li>
         </ul>
       </div>
     </article>
