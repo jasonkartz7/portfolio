@@ -26,7 +26,7 @@ function Projects({}: Props) {
 
       <div
         className="relative w-full flex overflow-x-scroll overflow-y-hidden snap- snap-mandatory z-20 my-0
-                    scrollbar scrollbar-track-gray-400/20 
+                   scrollbar-track-gray-400/20 
                   scrollbar-thumb-[#F7AB0A] scrollbar-thin"
       >
         {projects.map((project, i) => (
