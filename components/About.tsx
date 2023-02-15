@@ -16,7 +16,7 @@ export default function About({}: Props) {
         duration: 1.5,
       }}
       className="flex flex-col relative h-screen text-center 
-    md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
+                 md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
@@ -39,10 +39,15 @@ export default function About({}: Props) {
         }}
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcc3fTIAVY11lKuybFeTrFnN9eKmv77eiRww&usqp=CAU="
         className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full 
-        object-cover md:rounded-lg md:w-60 md:h-60 xl:w-[300px] xl:h-[300px] my-5"
+        object-cover md:rounded-lg md:w-60 md:h-60 xl:w-[200px] xl:h-[200px] my-5 mx-10"
       />
 
-      <div className="space-y-50 px-0 md-10 my-3 text-left">
+      <div
+        className="space-y-50 px-0 md-10 my-3 text-left flex flex-col rounded-lg items-center space-y-6 flex-shrink-0
+      w-[500px] md:w-[500px] xl:w-[900px] snap-center bg-[#292929] p-1
+      hover:opacity-100 opacity-40 cursor-pointer transition-opacity
+      duration-200 overflow-hidden"
+      >
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]/50"> little</span>{" "}
